@@ -50,7 +50,7 @@ server.delete('/software/:id', function(request, response) {
            softwares.splice(i, 1);
            break;
        }
-   } 
+   }  
      
     return response.status(204).send();
 })
